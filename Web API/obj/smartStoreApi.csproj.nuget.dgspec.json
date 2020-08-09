@@ -1,30 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Nikil\\Smaert Store API\\eMedik.UserApi\\smartStoreApi.csproj": {}
+    "/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/smartStoreApi.csproj": {}
   },
   "projects": {
-    "F:\\Nikil\\Smaert Store API\\eMedik.UserApi\\smartStoreApi.csproj": {
+    "/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/smartStoreApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Nikil\\Smaert Store API\\eMedik.UserApi\\smartStoreApi.csproj",
+        "projectUniqueName": "/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/smartStoreApi.csproj",
         "projectName": "smartStoreApi",
-        "projectPath": "F:\\Nikil\\Smaert Store API\\eMedik.UserApi\\smartStoreApi.csproj",
-        "packagesPath": "C:\\Users\\vihari vihu\\.nuget\\packages\\",
-        "outputPath": "F:\\Nikil\\Smaert Store API\\eMedik.UserApi\\obj\\",
+        "projectPath": "/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/smartStoreApi.csproj",
+        "packagesPath": "/Users/vishwanathkota/.nuget/packages/",
+        "outputPath": "/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\vihari vihu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/vishwanathkota/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,11 +41,11 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.0, )"
             },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.1, )"
             },
             "BCrypt.Net-Next": {
               "target": "Package",
@@ -59,15 +57,15 @@
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[3.1.4, )"
+              "version": "[3.1.6, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[3.1.6, )"
             },
             "MySql.Data": {
               "target": "Package",
-              "version": "[8.0.20, )"
+              "version": "[8.0.21, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -75,7 +73,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.4.1, )"
+              "version": "[5.5.1, )"
             }
           },
           "imports": [
@@ -96,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
         }
       }
     }

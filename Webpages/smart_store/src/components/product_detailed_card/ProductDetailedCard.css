@@ -1,0 +1,102 @@
+.product-detailed-section {
+    display: block;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px 30px;
+    margin-top: 40px;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px 0 #e9e9e9;
+}
+
+.product-detailed-section .product-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.product-detailed-section .pds-right {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.product-detailed-section .pds-right h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    color: #2b2f4c;
+    margin-bottom: 16px;
+}
+
+.product-detailed-section .pds-right .no-stock {
+    display: block;
+}
+
+.product-detailed-section .pds-right .no-stock p {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2b2f4c;
+}
+
+.product-detailed-section .pds-right .no-stock p span {
+    margin-left: 5px;
+    color: #8f91ac;
+}
+
+.product-detailed-section .pds-right .no-stock p:last-child {
+    margin-right: 0;
+}
+
+.product-detailed-section .pds-right .product-description {
+    line-height: 26px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #3e3f5e;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+}
+
+
+.product-detailed-section .pds-right .product-purchase-section {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.product-detailed-section .pds-right .product-purchase-section ul li {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.product-detailed-section .pds-right .product-purchase-section .color-discount {
+    color: #7c72ff !important;
+}
+
+.product-detailed-section .pds-right .product-purchase-section .color-discount:after {
+    content: '-';
+    margin-left: 20px;
+    color: #2b2f4c;
+}
+
+.product-detailed-section .pds-right .product-purchase-section .mrp-price {
+    text-decoration: line-through;
+    font-weight: 500;
+}
+
+.product-detailed-section .pds-right .product-purchase-section .main-price {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color: #2b2f4c;
+}
+
+.product-detailed-section .pds-right .product-purchase-section .order-crt-share {
+    margin-top: 22px;
+}
+
+.product-detailed-section .pds-right .product-purchase-section .order-crt-share li {
+    margin-right: 10px !important;
+}

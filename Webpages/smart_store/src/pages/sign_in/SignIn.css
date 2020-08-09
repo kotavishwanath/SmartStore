@@ -1,0 +1,39 @@
+.sign-in-section {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1), 0 3px 10px 0 rgba(0, 0, 0, .1);
+}
+
+.sign-in-logo {
+    width: 100px;
+    height: auto;
+    margin: 40px auto 30px;
+}
+
+.sign-in-section .login-form {
+    margin-top: 24px;
+}
+
+.sign-in-section .login-form-forgot {
+    float: right;
+}
+
+.sign-in-section .ant-col-rtl .login-form-forgot {
+    float: left;
+}
+
+.sign-in-section .login-form-button {
+    width: 100%;
+}
+
+.sign-in-section .login-form-bottom-text {
+    font-size: 15px;
+    margin-bottom: 24px;
+    padding: 0;
+    text-align: center;
+}

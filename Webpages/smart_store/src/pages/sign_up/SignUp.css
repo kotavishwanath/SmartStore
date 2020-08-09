@@ -1,0 +1,39 @@
+.sign-up-section {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1), 0 3px 10px 0 rgba(0, 0, 0, .1);
+}
+
+.sign-up-logo {
+    width: 100px;
+    height: auto;
+    margin: 40px auto 30px;
+}
+
+.sign-up-section .sign-up-form {
+    margin-top: 24px;
+}
+
+.sign-up-section .sign-up-form-forgot {
+    float: right;
+}
+
+.sign-up-section .ant-col-rtl .sign-up-form-forgot {
+    float: left;
+}
+
+.sign-up-section .sign-up-form-button {
+    width: 100%;
+}
+
+.sign-up-section .sign-up-form-bottom-text {
+    font-size: 15px;
+    margin-bottom: 24px;
+    padding: 0;
+    text-align: center;
+}

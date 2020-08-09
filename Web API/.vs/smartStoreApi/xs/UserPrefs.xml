@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{F77BB9BD-E5FD-4E48-8AD0-DD59269F118C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/LoginController.cs">
+    <Files>
+      <File FileName="appsettings.json" Line="23" Column="4" />
+      <File FileName="appsettings.Development.json" Line="3" Column="44" />
+      <File FileName="Controllers/LoginController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="smartStoreApi" expanded="True">
+            <Node name="smartStoreApi" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="LoginController.cs" selected="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.smartStoreApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

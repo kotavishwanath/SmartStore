@@ -1,60 +1,119 @@
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\appsettings.json
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\appsettings.Production.json
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\aws-beanstalk-tools-defaults.json
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\smartStoreApi.exe
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\smartStoreApi.deps.json
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\smartStoreApi.runtimeconfig.json
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\smartStoreApi.runtimeconfig.dev.json
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\smartStoreApi.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\smartStoreApi.pdb
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\AutoMapper.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\BCrypt.Net-Next.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\Dapper.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\MySql.Data.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\Renci.SshNet.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\SshNet.Security.Cryptography.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\obj\Debug\netcoreapp3.1\smartStoreApi.csprojAssemblyReference.cache
-F:\Nikil\Smaert Store API\eMedik.UserApi\obj\Debug\netcoreapp3.1\smartStoreApi.Properties.SuccessMessages.resources
-F:\Nikil\Smaert Store API\eMedik.UserApi\obj\Debug\netcoreapp3.1\smartStoreApi.Properties.ValidationMessages.resources
-F:\Nikil\Smaert Store API\eMedik.UserApi\obj\Debug\netcoreapp3.1\smartStoreApi.csproj.GenerateResource.cache
-F:\Nikil\Smaert Store API\eMedik.UserApi\obj\Debug\netcoreapp3.1\smartStoreApi.AssemblyInfoInputs.cache
-F:\Nikil\Smaert Store API\eMedik.UserApi\obj\Debug\netcoreapp3.1\smartStoreApi.AssemblyInfo.cs
-F:\Nikil\Smaert Store API\eMedik.UserApi\obj\Debug\netcoreapp3.1\smartStoreApi.csproj.CoreCompileInputs.cache
-F:\Nikil\Smaert Store API\eMedik.UserApi\obj\Debug\netcoreapp3.1\smartStoreApi.MvcApplicationPartsAssemblyInfo.cs
-F:\Nikil\Smaert Store API\eMedik.UserApi\obj\Debug\netcoreapp3.1\smartStoreApi.MvcApplicationPartsAssemblyInfo.cache
-F:\Nikil\Smaert Store API\eMedik.UserApi\obj\Debug\netcoreapp3.1\smartStoreApi.RazorTargetAssemblyInfo.cache
-F:\Nikil\Smaert Store API\eMedik.UserApi\obj\Debug\netcoreapp3.1\smartStoreApi.csproj.CopyComplete
-F:\Nikil\Smaert Store API\eMedik.UserApi\obj\Debug\netcoreapp3.1\staticwebassets\smartStoreApi.StaticWebAssets.Manifest.cache
-F:\Nikil\Smaert Store API\eMedik.UserApi\obj\Debug\netcoreapp3.1\staticwebassets\smartStoreApi.StaticWebAssets.xml
-F:\Nikil\Smaert Store API\eMedik.UserApi\obj\Debug\netcoreapp3.1\smartStoreApi.dll
-F:\Nikil\Smaert Store API\eMedik.UserApi\obj\Debug\netcoreapp3.1\smartStoreApi.pdb
-F:\Nikil\Smaert Store API\eMedik.UserApi\obj\Debug\netcoreapp3.1\smartStoreApi.genruntimeconfig.cache
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/appsettings.Development.json
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/appsettings.json
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/appsettings.Production.json
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/aws-beanstalk-tools-defaults.json
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/smartStoreApi.exe
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/smartStoreApi.deps.json
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/smartStoreApi.runtimeconfig.json
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/smartStoreApi.runtimeconfig.dev.json
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/smartStoreApi.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/smartStoreApi.pdb
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/AutoMapper.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/BCrypt.Net-Next.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/BouncyCastle.Crypto.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/Dapper.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/Google.Protobuf.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.Streams.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/K4os.Hash.xxHash.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.JsonPatch.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/MySql.Data.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/Ubiety.Dns.Core.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/Zstandard.Net.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/Newtonsoft.Json.Bson.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/Renci.SshNet.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/SshNet.Security.Cryptography.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/System.Xml.XPath.XmlDocument.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/obj/Debug/netcoreapp3.1/smartStoreApi.csprojAssemblyReference.cache
+F:/Nikil/Smaert Store API/eMedik.UserApi/obj/Debug/netcoreapp3.1/smartStoreApi.Properties.SuccessMessages.resources
+F:/Nikil/Smaert Store API/eMedik.UserApi/obj/Debug/netcoreapp3.1/smartStoreApi.Properties.ValidationMessages.resources
+F:/Nikil/Smaert Store API/eMedik.UserApi/obj/Debug/netcoreapp3.1/smartStoreApi.csproj.GenerateResource.cache
+F:/Nikil/Smaert Store API/eMedik.UserApi/obj/Debug/netcoreapp3.1/smartStoreApi.AssemblyInfoInputs.cache
+F:/Nikil/Smaert Store API/eMedik.UserApi/obj/Debug/netcoreapp3.1/smartStoreApi.AssemblyInfo.cs
+F:/Nikil/Smaert Store API/eMedik.UserApi/obj/Debug/netcoreapp3.1/smartStoreApi.csproj.CoreCompileInputs.cache
+F:/Nikil/Smaert Store API/eMedik.UserApi/obj/Debug/netcoreapp3.1/smartStoreApi.MvcApplicationPartsAssemblyInfo.cs
+F:/Nikil/Smaert Store API/eMedik.UserApi/obj/Debug/netcoreapp3.1/smartStoreApi.MvcApplicationPartsAssemblyInfo.cache
+F:/Nikil/Smaert Store API/eMedik.UserApi/obj/Debug/netcoreapp3.1/smartStoreApi.RazorTargetAssemblyInfo.cache
+F:/Nikil/Smaert Store API/eMedik.UserApi/obj/Debug/netcoreapp3.1/smartStoreApi.csproj.CopyComplete
+F:/Nikil/Smaert Store API/eMedik.UserApi/obj/Debug/netcoreapp3.1/staticwebassets/smartStoreApi.StaticWebAssets.Manifest.cache
+F:/Nikil/Smaert Store API/eMedik.UserApi/obj/Debug/netcoreapp3.1/staticwebassets/smartStoreApi.StaticWebAssets.xml
+F:/Nikil/Smaert Store API/eMedik.UserApi/obj/Debug/netcoreapp3.1/smartStoreApi.dll
+F:/Nikil/Smaert Store API/eMedik.UserApi/obj/Debug/netcoreapp3.1/smartStoreApi.pdb
+F:/Nikil/Smaert Store API/eMedik.UserApi/obj/Debug/netcoreapp3.1/smartStoreApi.genruntimeconfig.cache
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/appsettings.Production.json
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/aws-beanstalk-tools-defaults.json
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/smartStoreApi.deps.json
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/smartStoreApi.runtimeconfig.json
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/smartStoreApi.runtimeconfig.dev.json
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/smartStoreApi.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/smartStoreApi.pdb
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/AutoMapper.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/BCrypt.Net-Next.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/BouncyCastle.Crypto.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/Dapper.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/Google.Protobuf.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.Streams.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/K4os.Hash.xxHash.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.JsonPatch.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/MySql.Data.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/Ubiety.Dns.Core.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/Zstandard.Net.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/Newtonsoft.Json.Bson.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/Renci.SshNet.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/SshNet.Security.Cryptography.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/System.Xml.XPath.XmlDocument.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/obj/Debug/netcoreapp3.1/smartStoreApi.Properties.SuccessMessages.resources
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/obj/Debug/netcoreapp3.1/smartStoreApi.Properties.ValidationMessages.resources
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/obj/Debug/netcoreapp3.1/smartStoreApi.csproj.GenerateResource.cache
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/obj/Debug/netcoreapp3.1/smartStoreApi.AssemblyInfoInputs.cache
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/obj/Debug/netcoreapp3.1/smartStoreApi.AssemblyInfo.cs
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/obj/Debug/netcoreapp3.1/smartStoreApi.csproj.CoreCompileInputs.cache
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/obj/Debug/netcoreapp3.1/smartStoreApi.MvcApplicationPartsAssemblyInfo.cs
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/obj/Debug/netcoreapp3.1/smartStoreApi.MvcApplicationPartsAssemblyInfo.cache
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/obj/Debug/netcoreapp3.1/smartStoreApi.RazorTargetAssemblyInfo.cache
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/obj/Debug/netcoreapp3.1/smartStoreApi.csproj.CopyComplete
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/obj/Debug/netcoreapp3.1/staticwebassets/smartStoreApi.StaticWebAssets.Manifest.cache
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/obj/Debug/netcoreapp3.1/staticwebassets/smartStoreApi.StaticWebAssets.xml
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/obj/Debug/netcoreapp3.1/smartStoreApi.dll
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/obj/Debug/netcoreapp3.1/smartStoreApi.pdb
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/obj/Debug/netcoreapp3.1/smartStoreApi.genruntimeconfig.cache
+/Users/vishwanathkota/Desktop/Avinash_Si Gopi Project/SmartStore/Web API/obj/Debug/netcoreapp3.1/smartStoreApi.csprojAssemblyReference.cache

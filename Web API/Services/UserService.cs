@@ -63,5 +63,15 @@ namespace smartStoreApi.Services
             return await _userRepository.InsertUserAsync(userRequest) ? "User Registration successful" : "User Regstration Failed";
         }
 
+        public async Task<UserProductResponse> GetUserProductsAsync(int userId)
+        {
+            return await _userRepository.GetUserProductsAsync(userId);
+        }
+
+        public async Task<ProductDetailResponse> GetProductDetailsAsync(int productId, int categoryId, int userId)
+        {
+            return await _userRepository.GetProductDetailsAsync(productId, categoryId, userId);
+        }
+            
     }
 }

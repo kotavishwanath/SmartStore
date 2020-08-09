@@ -34,18 +34,15 @@ namespace smartStoreApi.Services
             _userService = userService;
         }
 
-        public async Task<UserResponse> Authenticate(LoginRequest loginRequest)
+        public async Task<LoginResponse> Authenticate(LoginRequest loginRequest)
         {
             var userResponse = await _userService.GetUserByEmailAsync(loginRequest.Email);
             if (userResponse == null)
             {
                 return null;
             }
-            if (loginRequest.Password != userResponse.Password)
-            {
-                throw new ArgumentException(string.Format(ValidationMessages.Invalid, nameof(loginRequest.Password)));
-            }
-            return userResponse;
+            var loginResponse = new LoginResponse { Token = _authenticateService.GenerateSecurityToken(loginRequest.Email, userResponse.Id) };
+            return _mapper.Map(userResponse, loginResponse);
         }
 
         public async Task<ForgotPasswordResponse> ForgotPasswordAsync(string email)

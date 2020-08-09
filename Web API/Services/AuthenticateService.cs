@@ -25,7 +25,7 @@ namespace smartStoreApi.Services
             _httpContextAccessor = httpContextAccessor;
         }
 
-        public string GenerateSecurityToken(string email, int userId,string firstName)
+        public string GenerateSecurityToken(string email, int userId)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(_jwtDetails.SecretKey);
@@ -34,8 +34,7 @@ namespace smartStoreApi.Services
                 Subject = new ClaimsIdentity(new[]
                 {
                     new Claim(ClaimConstants.Email, email),
-                    new Claim(ClaimConstants.UserId, userId.ToString()),
-                    new Claim(ClaimConstants.FirstName, firstName)
+                    new Claim(ClaimConstants.UserId, userId.ToString())
                 }),
                 Expires = DateTime.UtcNow.AddMinutes(_jwtDetails.ExpirationInMinutes),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),

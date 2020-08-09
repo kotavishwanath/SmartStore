@@ -1,12 +1,12 @@
-﻿using smartStoreApi.Common;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using smartStoreApi.Common;
 using smartStoreApi.Models.Request;
 using smartStoreApi.Models.Response;
 using smartStoreApi.Properties;
 using smartStoreApi.Services.Interfaces;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using System;
 using System.Net.Mime;
 using System.Threading.Tasks;
@@ -41,14 +41,25 @@ namespace smartStoreApi.Controllers
         /// <param name="loginRequest"></param>
         /// <returns>LoginResponse</returns>
         [HttpPost]
-        [ProducesResponseType(typeof(UserResponse), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(LoginResponse), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(string), StatusCodes.Status404NotFound)]
         public async Task<IActionResult> Authenticate([FromBody] LoginRequest loginRequest)
         {
             try
             {
                 var userResponse = await _loginService.Authenticate(loginRequest);
-                return userResponse == null ? StatusCode(StatusCodes.Status404NotFound, string.Format(ValidationMessages.NotFound, ValidationMessages.User)) : Ok(userResponse);
+                if (userResponse == null)
+                {
+                    return Ok(string.Format(ValidationMessages.NotFound, ValidationMessages.User));
+                }
+                else if (loginRequest.Password != userResponse.Password)
+                {
+                    return Ok(string.Format(ValidationMessages.Invalid, nameof(loginRequest.Password)));
+                }
+                else 
+                {
+                    return Ok(userResponse); 
+                }
             }
             catch (Exception ex)
             {

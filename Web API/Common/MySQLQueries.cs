@@ -69,5 +69,55 @@
 														,@Password
 														,NOW()
 														);";
+
+		public const string GetProductsQuery = @"SELECT pc.Id CategoryId,
+															pc.Name CategoryName,
+															p.Id ProductId,
+															p.Name ProductName,
+															p.Price ProductPrice,
+															p.ImagePath ProductImagePath,
+															p.Description ProductDescription	
+													FROM productcategory pc
+													INNER JOIN product p ON pc.Id = p.CategoryId
+													WHERE pc.IsActive = true";
+
+		public const string GetUserViewedProductsQuery = @"SELECT pc.Id CategoryId,
+																	pc.Name CategoryName,
+																	p.Id ProductId,
+																	p.Name ProductName,
+																	p.Price ProductPrice,
+																	p.ImagePath ProductImagePath,
+																	p.Description ProductDescription
+													FROM smartstore.userviewedproducts vp
+													INNER JOIN product p on vp.ProductId = p.Id
+													INNER JOIN productcategory pc ON pc.Id = p.CategoryId
+													where vp.UserId = @userId
+													order by vp.Count desc
+													limit 10;";
+
+		public const string GetProductDetailsQuery = @"SELECT p.Id ProductId,
+															p.Name ProductName,
+															p.Price ProductPrice,
+															p.ImagePath ProductImagePath,
+															p.Description ProductDescription
+															FROM product p
+															WHERE Id = @productId";
+
+		public const string GetSuggestedProductsQuery = @"SELECT pc.Id CategoryId, pc.Name CategoryName,p.Id ProductId,
+																p.Name ProductName,
+																p.Price ProductPrice,
+																p.ImagePath ProductImagePath,
+																p.Description ProductDescription
+																FROM product p
+																inner JOIN productcategory pc ON pc.Id = p.CategoryId
+																where Pc.Id= @categoryId;";
+
+		public const string InsertUserViewedProductQuery = @"INSERT INTO userviewedproducts(UserId, ProductId, Count)
+													VALUES(@userId, @productId, IFNULL(Count, 0) + 1)";
+
+		public const string UpdateUserViewedProductQuery = @"UPDATE userviewedproducts SET Count = IFNULL(Count, 0) + 1
+															WHERE UserId = @userId AND ProductId = @productId";
+
+		public const string GetUserViewedProductByProductId = "SELECT * from userviewedproducts WHERE UserId = @userId AND ProductId = @productId";
 	}
 }

@@ -13,5 +13,9 @@ namespace smartStoreApi.Repositories.Interfaces
 
         Task<bool> InsertUserAsync(UserRequest userRequest);
 
+        Task<UserProductResponse> GetUserProductsAsync(int userId);
+
+        Task<ProductDetailResponse> GetProductDetailsAsync(int productId, int categoryId, int userId);
+
     }
 }

@@ -4,7 +4,7 @@ namespace smartStoreApi.Services.Interfaces
 {
     public interface IAuthenticateService
     {
-        string GenerateSecurityToken(string email, int userId,string firstName);
+        string GenerateSecurityToken(string email, int userId);
 
         int GetUserId();
 

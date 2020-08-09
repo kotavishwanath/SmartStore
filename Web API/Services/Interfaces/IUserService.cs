@@ -1,6 +1,5 @@
 ﻿using smartStoreApi.Models.Request;
 using smartStoreApi.Models.Response;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace smartStoreApi.Services.Interfaces
@@ -15,5 +14,7 @@ namespace smartStoreApi.Services.Interfaces
 
         Task<string> SaveUserAsync(UserRequest userRequest);
 
+        Task<UserProductResponse> GetUserProductsAsync(int userId);
+        Task<ProductDetailResponse> GetProductDetailsAsync(int productId, int categoryId, int userId);
     }
 }

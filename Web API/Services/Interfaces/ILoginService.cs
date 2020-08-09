@@ -6,6 +6,6 @@ namespace smartStoreApi.Services.Interfaces
 {
     public interface ILoginService
     {
-        Task<UserResponse> Authenticate(LoginRequest loginRequest);
+        Task<LoginResponse> Authenticate(LoginRequest loginRequest);
     }
 }

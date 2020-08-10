@@ -10,6 +10,7 @@ const SignIn = () => {
   const onSubmit = values => {
     axios.post('/login', values).
         then(response => {
+          console.log(response);
           if (response.status === 200) {
             const data = response.data;
             if (typeof data === 'object') {
@@ -22,7 +23,10 @@ const SignIn = () => {
             }
           } else message.error('Something went wrong. Please try again.');
         }).
-        catch(() => message.error('Something went wrong. Please try again.'));
+        catch(errors => {
+          console.log(errors);
+          message.error('Something went wrong. Please try again.');
+        });
   };
 
   return (

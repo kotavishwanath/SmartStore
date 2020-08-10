@@ -41,11 +41,11 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[10.0.0, )"
+              "version": "[9.0.0, )"
             },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[7.0.0, )"
             },
             "BCrypt.Net-Next": {
               "target": "Package",
@@ -57,15 +57,15 @@
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.4, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.5, )"
             },
             "MySql.Data": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.20, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -73,7 +73,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.5.1, )"
+              "version": "[5.4.1, )"
             }
           },
           "imports": [

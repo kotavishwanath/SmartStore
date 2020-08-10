@@ -48,7 +48,7 @@ namespace smartStoreApi.Controllers
 
         [HttpGet]
         [ProducesResponseType(typeof(UserProductResponse), StatusCodes.Status200OK)]
-        [Route("getproductdetails/{productId}/categoryId/{userId}")]
+        [Route("getproductdetails/{productId}/{categoryId}/{userId}")]
         public async Task<IActionResult> GetProductDetailsAsync(int productId, int categoryId, int userId)
         {
             try

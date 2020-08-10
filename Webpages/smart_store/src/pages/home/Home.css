@@ -5,7 +5,6 @@
 }
 
 .products-list-section .title {
-    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 600;
     color: #2b2f4c;
@@ -13,7 +12,6 @@
 }
 
 .products-list-section .sub-title {
-    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 600;
     text-align: left;

@@ -1,0 +1,70 @@
+.cart-modal {
+    border-radius: 10px !important;
+}
+
+.cart-modal .ant-modal-body {
+    padding: 20px 0 !important;
+}
+
+.cart-modal .cart-list-section {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #e3e2e2;
+    padding: 20px;
+}
+
+.cart-modal .cart-list-section .product-image {
+    display: flex;
+    width: 100px;
+    border: 1px solid #e3e2e2;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.cart-modal .cart-list-section .product-details {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    position: relative;
+}
+
+.cart-modal .cart-list-section .product-details .product-remove-icon {
+    font-size: 15px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+.cart-modal .cart-list-section .product-details p {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2b2f4c;
+    margin-bottom: 5px;
+}
+
+.cart-modal .cart-list-section .product-details p span {
+    margin-left: 5px;
+    color: #8f91ac;
+}
+
+.cart-modal .cart-list-section .product-details .product-price {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #f55d2c;
+    text-align: right;
+}
+
+.cart-modal .cart-list-section .product-details .product-price span {
+    color: #c7c7c7;
+    text-decoration: line-through;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.cart-modal .total-price-section {
+
+}

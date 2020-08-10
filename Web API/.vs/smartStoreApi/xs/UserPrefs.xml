@@ -1,25 +1,42 @@
-﻿<Properties StartupConfiguration="{F77BB9BD-E5FD-4E48-8AD0-DD59269F118C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/LoginController.cs">
+﻿<Properties StartupConfiguration="{F77BB9BD-E5FD-4E48-8AD0-DD59269F118C}|smartStoreApi">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/UserController.cs">
     <Files>
-      <File FileName="appsettings.json" Line="23" Column="4" />
-      <File FileName="appsettings.Development.json" Line="3" Column="44" />
+      <File FileName="appsettings.json" Line="3" Column="44" />
+      <File FileName="appsettings.Development.json" Line="1" Column="1" />
       <File FileName="Controllers/LoginController.cs" Line="1" Column="1" />
+      <File FileName="Controllers/UserController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="smartStoreApi" expanded="True">
             <Node name="smartStoreApi" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="LoginController.cs" selected="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
               </Node>
+              <Node name="Common" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="UserController.cs" selected="True" />
+              </Node>
+              <Node name="Enumerations" expanded="True" />
+              <Node name="Extensions" expanded="True" />
+              <Node name="Helpers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Configuration" expanded="True" />
+                <Node name="Request" expanded="True" />
+                <Node name="Response" expanded="True" />
+              </Node>
+              <Node name="Profiles" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Repositories" expanded="True">
+                <Node name="Interfaces" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
               <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

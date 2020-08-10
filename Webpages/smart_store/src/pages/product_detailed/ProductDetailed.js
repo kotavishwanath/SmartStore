@@ -4,14 +4,16 @@ import {Col, message, Row} from 'antd';
 import {LoadingOutlined} from '@ant-design/icons';
 import './ProductDetailed.css';
 import axios from 'axios';
+import {useSelector} from 'react-redux';
 import ProductDetailedCard
   from '../../components/product_detailed_card/ProductDetailedCard';
 import ProductCard from '../../components/product_card/ProductCard';
+import { getUserDataReselector } from '../../redux/selectors';
 
 const initialState = {
   productData: null,
   relatedProducts: [],
-  loading: true,
+  loading: false,
 };
 
 const reducer = (state, action) => {
@@ -37,23 +39,27 @@ const ProductDetailed = () => {
 
   const [state, dispatch] = useReducer(reducer, initialState);
   const {productId, categoryId} = useParams();
-
+  const userData = useSelector(getUserDataReselector);
+  console.log(userData);
   useEffect(() => {
     getProductData();
-  }, []);
+  }, [productId]);
 
   const getProductData = () => {
-    axios.get(
-        `/user/getproductdetails/${productId}/categoryId?categoryId=${categoryId}`).
+    dispatch({
+      type: 'change-loading-status',
+      payload: true,
+    });
+    axios.get(`/user/getproductdetails/${productId}/${categoryId}/${userData.id}`).
         then(response => {
           if (response.status === 200) {
-            const data = response.data;
+            const {suggestedProductResponse, ...productData} = response.data;
             setTimeout(() => {
               dispatch({
                 type: 'update-product-data',
                 payload: {
-                  productData: data,
-                  relatedProducts: data.suggestedProductResponse,
+                  productData,
+                  relatedProducts: suggestedProductResponse,
                 },
               });
             }, 1000);
@@ -64,13 +70,14 @@ const ProductDetailed = () => {
               payload: false,
             });
           }
-        }).catch(() => {
-      message.error('Server error. Refresh the page');
-      dispatch({
-        type: 'change-loading-status',
-        payload: false,
-      });
-    });
+        }).
+        catch(() => {
+          message.error('Server error. Refresh the page');
+          dispatch({
+            type: 'change-loading-status',
+            payload: false,
+          });
+        });
   };
 
   const {productData, relatedProducts, loading} = state;
@@ -93,11 +100,11 @@ const ProductDetailed = () => {
                   <>
                     <ProductDetailedCard data={productData}/>
                     {
-                      relatedProducts.length > 0 && (
+                      relatedProducts.length > 1 && (
                           <Row className="products-list-section">
                             <Col span={24}>
-                              <p className="sub-title">For You</p>
-                              <h2 className="title">All Products :</h2>
+                              {/* <p className="sub-title">For You</p> */}
+                              <h2 className="title">Sugested Products :</h2>
                             </Col>
                             <Col span={24} className="mt-10">
                               <Row gutter={16}>
